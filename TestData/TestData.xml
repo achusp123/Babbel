@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Testdata>
+
+<TestData>
+	<SearchKeyword>shirt</SearchKeyword>
+ 	<ContactSubject>Customer service</ContactSubject>
+ 	<ContactEmail>test123@gmail.com</ContactEmail>
+ 	<ContactOrder>ABC123</ContactOrder> 
+ 	<ContactMessage>Contact text message!</ContactMessage>
+ 	
+	</TestData>
+</Testdata>

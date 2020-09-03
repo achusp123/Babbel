@@ -1,0 +1,4 @@
+2020-09-02 22:51:30,916 INFO t.C.Log [main] Test case started on chrome 85.0.4183.83
+2020-09-02 22:51:42,309 INFO t.C.Log [main] Navigated to Contact us - My Store Page
+2020-09-02 22:51:44,757 INFO t.C.Log [main] Test case started on chrome 85.0.4183.83
+2020-09-02 22:51:55,784 INFO t.C.Log [main] Expected Result: Verify the seach result page should display items for search keyword

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteForBabbel">
+	<listeners>
+		<listener class-name="test.Core.Log" />
+		<listener class-name="test.Core.RetryListenerClass" />
+	</listeners>
+	<test name="Babbel" enabled="true" allow-return-values="true"
+		preserve-order="true">
+		<parameter name="Browser" value="chrome" />
+		<groups>
+			<define name="all">
+				<include name="Demo" />
+			</define>
+			<run>
+				<include name="Demo" />
+			</run>
+		</groups>
+		<classes>
+			
+			<class name="testscripts.Tests">
+				 <methods>
+<!--  					<include name="Validation_Of_Search_Icon_ATC2" />  -->
+ 					<include name="Validation_Of_ContactUs_Send_Message" />
+					</methods> 
+			</class>
+</classes>
+	</test>
+</suite>

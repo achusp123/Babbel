@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/java-client-3.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/java-json.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/jsoup-1.10.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/log4j-1.2-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/log4j-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/log4j-core-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/log4j-web-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/EXKAPI/workspace/BabbelTest/References/velocity-dep-1.4.jar"/>
+	<classpathentry kind="src" path="Source"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Framework"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

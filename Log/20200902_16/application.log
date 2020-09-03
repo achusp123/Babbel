@@ -1,0 +1,15 @@
+2020-09-02 23:06:47,702 INFO t.C.Log [main] Test case started on chrome 85.0.4183.83
+2020-09-02 23:06:47,705 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,707 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,709 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Validation_Of_HomePage_Search       $$$$$$$$$$$$$$$$$$$$$
+2020-09-02 23:06:47,710 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,713 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,741 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,743 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,744 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Validation_Of_HomePage_Search       $$$$$$$$$$$$$$$$$$$$$
+2020-09-02 23:06:47,746 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:47,747 INFO t.C.Log [main] ****************************************************************************************
+2020-09-02 23:06:58,528 INFO t.C.Log [main] Expected Result: Verify the seach result page should display items for search keyword
+2020-09-02 23:06:58,943 INFO t.C.Log [main] "SHIRT"
+2020-09-02 23:06:59,597 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\EXKAPI\workspace\BabbelTest\test-output\20200902Screenshots\Validation_Of_HomePage_Search.jpg
+2020-09-02 23:07:00,171 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\EXKAPI\workspace\BabbelTest\test-output\20200902Screenshots\Validation_Of_HomePage_Search.jpg

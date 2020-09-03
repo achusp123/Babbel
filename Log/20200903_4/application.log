@@ -1,0 +1,23 @@
+2020-09-03 12:01:12,032 INFO t.C.Log [main] Test case started on chrome 85.0.4183.83
+2020-09-03 12:01:12,041 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,044 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,047 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Validation_Of_ContactUs_Send_Message       $$$$$$$$$$$$$$$$$$$$$
+2020-09-03 12:01:12,049 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,051 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,082 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,084 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,085 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Validation_Of_ContactUs_Send_Message       $$$$$$$$$$$$$$$$$$$$$
+2020-09-03 12:01:12,087 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:12,090 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 12:01:19,413 INFO t.C.Log [main] Navigated to  Page
+2020-09-03 12:01:19,416 INFO t.C.Log [main] Expected Result: Verify the message can be send to customer service.
+2020-09-03 12:01:21,723 INFO t.C.Log [main] Blank or invalid email address verified successfully
+2020-09-03 12:01:23,390 INFO t.C.Log [main] Black message verified successfully
+2020-09-03 12:02:25,991 INFO t.C.Log [main] || NoSuchElementException: The Object Contact subject not found! Timed out after 60 seconds waiting for visibility of element located by By.xpath: //select[@id='id_contact']
+Build info: version: '2.53.1', revision: 'a36b8b1', time: '2016-06-30 17:37:03'
+System info: host: 'SEC35221', ip: '192.168.0.11', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_222'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:61413}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\EXKAPI\AppData\Local\Temp\scoped_dir61728_283315476}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=85.0.4183.83, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 546c4333b159a8a26b49ecd3a6c9c4cc || 
+2020-09-03 12:02:26,504 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\EXKAPI\workspace\BabbelTest\test-output\20200903Screenshots\Validation_Of_ContactUs_Send_Message.jpg
+2020-09-03 12:02:26,939 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\EXKAPI\workspace\BabbelTest\test-output\20200903Screenshots\Validation_Of_ContactUs_Send_Message.jpg

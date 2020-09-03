@@ -1,0 +1,15 @@
+2020-09-03 09:57:21,594 INFO t.C.Log [main] Test case started on chrome 85.0.4183.83
+2020-09-03 09:57:30,576 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:57:31,328 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:57:32,169 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Validation_Of_HomePage_Search       $$$$$$$$$$$$$$$$$$$$$
+2020-09-03 09:57:33,836 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:57:34,393 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:58:13,238 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:58:13,240 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:58:13,241 INFO t.C.Log [main] $$$$$$$$$$$$$$                 Validation_Of_HomePage_Search       $$$$$$$$$$$$$$$$$$$$$
+2020-09-03 09:58:13,242 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:58:13,243 INFO t.C.Log [main] ****************************************************************************************
+2020-09-03 09:58:20,397 INFO t.C.Log [main] Expected Result: Verify the seach result page should display items for search keyword
+2020-09-03 09:58:21,607 INFO t.C.Log [main] || Actual Result: Search result verification failed || 
+2020-09-03 09:58:22,412 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\EXKAPI\workspace\BabbelTest\test-output\20200903Screenshots\Validation_Of_HomePage_Search.jpg
+2020-09-03 09:58:22,889 INFO t.C.Log [main] Failed Screenshot Saved at :C:\Users\EXKAPI\workspace\BabbelTest\test-output\20200903Screenshots\Validation_Of_HomePage_Search.jpg

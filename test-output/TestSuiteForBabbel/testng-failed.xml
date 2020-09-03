@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteForBabbel]">
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="test.Core.Log"/>
+    <listener class-name="test.Core.RetryListenerClass"/>
+  </listeners>
+  <test name="Babbel(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Demo"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testscripts.Tests">
+        <methods>
+          <include name="BeforeSuit"/>
+          <include name="AfterSuit"/>
+          <include name="Validation_Of_ContactUs_Send_Message"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testscripts.Tests -->
+    </classes>
+  </test> <!-- Babbel(failed) -->
+</suite> <!-- Failed suite [TestSuiteForBabbel] -->
