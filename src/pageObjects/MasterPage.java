@@ -11,6 +11,7 @@ public class MasterPage {
 
 	protected PageObjects repository;
 	static Action Action = new Action();
+	static MobileAction MobileAction = new MobileAction();
 	Configuration configuration = new Configuration();
 
 	public static Instant teststart;
@@ -30,13 +31,16 @@ public class MasterPage {
 		return repository.GetHomePage();
 
 	}
+	public MobileHomePage GetMobileHomePage() {
+		return repository.GetMobileHomePage();
+
+	}
 	public ContactPage GetContactPage() {
 		return repository.GetContactPage();
 	}
-	public SearchPage GetSearchPage() {
-		return repository.GetSearchPage();
 
-	}
+
+	
 	
 	
 	
