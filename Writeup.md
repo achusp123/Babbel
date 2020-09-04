@@ -28,6 +28,6 @@ running at 127.0.0.1:4723 and an android emulator should be active.
 2. Selenium and Appium package - These are the most effective tools for web and mobile automation.
 3. Android Emulator -Since its diffecult to maintain and cost of the hard device, its always good to run mobile test on emulators. (We need to have Mac machine for running IOS).
 
-##Settings
+## Settings
 1. Web url is configured in config.properties.
 2. Mobile settings are done on config.properties file for providing device name, app package etc.
