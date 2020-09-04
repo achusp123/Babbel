@@ -36,10 +36,9 @@ public class HomePage extends MasterPage {
 
 	
 
-	public static Instant start;
-	public static Instant end;
+	
 
-	public static LocatorObject Home_Contact_Link = new LocatorObject("//div[@id='contact-link']","Contact link", LocatorObject.XPATH);
+	public static LocatorObject Form_Link = new LocatorObject("//a[@class='nav-link']","Form link", LocatorObject.XPATH);
 	public static LocatorObject Create_Email_Textbox = new LocatorObject("//input[@id='email_create']","Create Login email", LocatorObject.XPATH);
 	public static LocatorObject Login_Email_Textbox = new LocatorObject("//input[@id='email']","Login email", LocatorObject.XPATH);
 	public static LocatorObject Login_Password_Textbox = new LocatorObject("//input[@id='passwd']","Login password", LocatorObject.XPATH);
@@ -70,13 +69,13 @@ public class HomePage extends MasterPage {
 	/**
 	 * @return Navigate to contact page
 	 */
-	public HomePage NavigatetoContact() {
-		Action.Click(Home_Contact_Link);
+	public HomePage NavigatetoForm() {
+		Action.Click(Form_Link);
 		Action.WaitForPageLoad();
-		if(Action.GetCurrentUrl().contains("contact"))
+		if(Action.GetCurrentUrl().contains("form"))
 			Action.ActionLog("Navigated to "+Action.GetPageTitle()+" Page");
 		else
-			Action.AssertFail("Navigation to Library failed");	
+			Action.AssertFail("Navigation to Form failed");	
 		return this;
 	}
 	/**
