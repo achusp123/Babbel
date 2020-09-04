@@ -14,15 +14,15 @@ running at 127.0.0.1:4723 and an android emulator should be active.
 3. For running web test make sure that the "Mobile" flag in config.properties is "no" and run the "Webtestng.xml" in the root project.
 4. For running mobile test make sure that the "Mobile" flag in config.properties is "yes" and run the "Mobiletestng.xml" in the root project.
 
-## Frameworks/Tools/Patterns used
+## Frameworks
 
-1. Framework used is a pageobject hybrid framework which has the actions for web and mobile. And as per the parameter passed from config.properties file
-   the framework will manage to trigger the web or mobile driver and return the driver to the respective tests.
-2. The tests are easy to maintain since it is unique and scalable when new functionalities are added. Also testng helps in grouping tests across different modules on need basis.
-3. The browser parameter is taken from Webtestng.xml to trigger chrome driver.
+1. Framework used is a pageobject hybrid framework (https://github.com/achusp123/Framework.git) which has the actions for web and mobile. 
+2. And as per the parameter passed from config.properties file the framework will manage to trigger the web or mobile driver and return the driver to the respective tests.
+3. The tests are easy to maintain since it is unique and scalable when new functionalities are added. Also testng helps in grouping tests across different modules on need basis.
+4. The browser parameter is taken from Webtestng.xml to trigger chrome driver.
    It is possible to add firefox and edge browsers as well to the framework depending on the compatibility of the website under test.
-4. Its is possible to set the retry count in config.properties which make sure that a test can be run even it fails.
-5. Test data is passed from xml files.
+5. Its is possible to set the retry count in config.properties which make sure that a test can be run even it fails.
+6. Test data is passed from xml files.
 ## Tools 
 1. Eclipse IDE - Used for coding which is very handy and open source and also easy to integrate with other tools like GIT, Testng, Selenium, Appium etc.
 2. Selenium and Appium package - These are the most effective tools for web and mobile automation.
