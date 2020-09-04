@@ -10,12 +10,14 @@ public class PageObjects {
 		return new HomePage(this);
 
 	}
+	public MobileHomePage GetMobileHomePage() {
+		return new MobileHomePage(this);
+
+	}
 	public ContactPage GetContactPage() {
 		return new ContactPage(this);
 
 	}
-	public SearchPage GetSearchPage() {
-		return new SearchPage(this);
 
-	}
+	
 }
