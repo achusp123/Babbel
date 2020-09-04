@@ -17,9 +17,8 @@
 			</run>
 		</groups>
 		<classes>
-			
-			<class name="testscripts.Tests">
-			</class>
-</classes>
+      <class name="testscripts.MobileHomePageTest"/>
+    </classes>
 	</test>
 </suite>
+ 
