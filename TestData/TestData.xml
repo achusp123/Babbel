@@ -2,11 +2,13 @@
 <Testdata>
 
 <TestData>
-	<SearchKeyword>shirt</SearchKeyword>
- 	<ContactSubject>Customer service</ContactSubject>
- 	<ContactEmail>test123@gmail.com</ContactEmail>
- 	<ContactOrder>ABC123</ContactOrder> 
- 	<ContactMessage>Contact text message!</ContactMessage>
+	<First>Test</First>
+ 	<Last>name</Last>
+ 	<Job>Tester</Job>
+ 	<Education>College</Education> 
+ 	<Sex>Male</Sex>
+ 	<Experience>5-9</Experience>
+ 	<Date>02/08/2020</Date>
  	
 	</TestData>
 </Testdata>

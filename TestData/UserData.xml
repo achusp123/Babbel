@@ -2,13 +2,10 @@
 
 <Users>
 
-	<ICAGruppenEndUser>
-		<UserName>extvbv</UserName>
-		<Password>extvbv69</Password>
-		<InvalidUserName>exka</InvalidUserName>
-		<InvalidPassword>exkap</InvalidPassword>
-		<MediaUser>solnawebportals@gmail.com</MediaUser>
-		<MediaPassword>FredrikTomas</MediaPassword>
-	</ICAGruppenEndUser>
+	<UserData>
+		<UserName>percival@gmail.com</UserName>
+		<Password>123456</Password>
+		
+	</UserData>
 
 </Users>
