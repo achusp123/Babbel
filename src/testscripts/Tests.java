@@ -14,14 +14,14 @@ public class Tests extends TestBase {
 	/*****************************************************************************************************
 	 * Name : Validation_Of_ContactUs_Send_Message
 	 *
-	 * Description : Verification of send message functionality on contact us page 
+	 * Description : Verification of submission of form 
 	 * 
 	 * 
 	 * ------------------------------------------------------------
 	 *
 	 ****************************************************************************************************/
-	@Test(groups = {  "Demo" }, description = "Verification of send message functionality on contact us page", enabled = true)
-	public static void Validation_Of_ContactUs_Send_Message() {
+	@Test(groups = {  "Demo" }, description = "Verification of submit form ", enabled = true)
+	public static void Validation_Of_Form_Submission() {
 
 		Begin begin = new Begin();
 
@@ -29,10 +29,10 @@ public class Tests extends TestBase {
 			.Start()
 			.GetHomePage()
 			.atHomePage()
-			.NavigatetoContact()
+			.NavigatetoForm()
 			.GetContactPage()
 			.atContactPage()
-			.VerifyContactUs(TestData.strContactSubject, TestData.strContactEmail, TestData.strContactOrder, TestData.strContactMessage)
+			.VerifyFormSubmit(TestData.strFirst, TestData.strLast, TestData.strJob, TestData.strEducation,TestData.strSex,TestData.strExperience,TestData.strDate)
 			.GetHomePage()
 			.CloseSession();
 	}
