@@ -5,11 +5,13 @@ import test.Core.XmlReaderNew;
 
 public class TestDataXML {
 
-	public String strSearchKeyword;
- 	public String strContactSubject;
- 	public String strContactEmail;
- 	public String strContactOrder;
- 	public String strContactMessage;
+	public String strFirst;
+ 	public String strLast;
+ 	public String strJob;
+ 	public String strEducation;
+ 	public String strSex;
+ 	public String strExperience;
+ 	public String strDate;
  	
  
  	static XmlReaderNew xml = new XmlReaderNew();
@@ -20,11 +22,13 @@ public class TestDataXML {
  		try {
  			Map map = XmlReaderNew.ReadXmlData("TestData", key);
  
- 			obj.strSearchKeyword = (String) map.get("SearchKeyword").toString();
- 			obj.strContactSubject = (String) map.get("ContactSubject").toString();
- 			obj.strContactEmail = (String) map.get("ContactEmail").toString();
- 			obj.strContactOrder = (String) map.get("ContactOrder").toString();
- 			obj.strContactMessage = (String) map.get("ContactMessage").toString();
+ 			obj.strFirst = (String) map.get("First").toString();
+ 			obj.strLast = (String) map.get("Last").toString();
+ 			obj.strJob = (String) map.get("Job").toString();
+ 			obj.strEducation = (String) map.get("Education").toString();
+ 			obj.strSex = (String) map.get("Sex").toString();
+ 			obj.strExperience = (String) map.get("Experience").toString();
+ 			obj.strDate = (String) map.get("Date").toString();
  			
  		} catch (Exception e) {
  			e.printStackTrace();
